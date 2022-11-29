@@ -35,6 +35,9 @@
       width: 200px;
       height: 68px;
       display: table-cell;
+      &:hover{
+        cursor: pointer;
+      }
       @include mediaQ(769px){
         width: 286px;
       }

@@ -139,19 +139,19 @@ body p {
 }
 
 .d-banner#modelo {
-  background-image: url(/assets/img/banner-01.png);
+  background-image: url(../img/banner-01.png);
 }
 
 .d-banner#gestion {
-  background-image: url(/assets/img/banner-02.png);
+  background-image: url(../img/banner-02.png);
 }
 
 .d-banner#antisoborno {
-  background-image: url(/assets/img/banner-03.png);
+  background-image: url(../img/banner-03.png);
 }
 
 .d-banner#interes {
-  background-image: url(/assets/img/banner-04.png);
+  background-image: url(../img/banner-04.png);
 }
 
 header {
@@ -299,6 +299,10 @@ footer a:hover {
   display: table-cell;
 }
 
+.season_tab label:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 769px) {
   .season_tab label {
     width: 286px;
@@ -346,6 +350,13 @@ footer a:hover {
   text-align: left;
   right: 5%;
   left: 5%;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .carousel-caption {
+    width: 33%;
+  }
 }
 
 .carousel-control-prev {
